@@ -8,6 +8,6 @@ export const CreateEmployeeSchema = Joi.object({
 
 export const UpdateEmployeeSchema = Joi.object({
     name: Joi.string(),
-    age: Joi.number(),
+    age: Joi.number().strict(),
     role: Joi.string()
 })
