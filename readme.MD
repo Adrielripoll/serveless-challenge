@@ -14,7 +14,7 @@
             <td>/employee</td>
             <td>POST</td>
             <td>{ name: string, age: number, role: string }</td>
-            <td>200, 400, 422</td>
+            <td>201, 400, 422</td>
         </tr>
         <tr>
             <td>/employee</td>
