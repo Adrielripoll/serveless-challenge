@@ -60,5 +60,7 @@ export class EmployeeUseCases {
         if(!employeeExists){
             return null
         }
+
+        await this.employeeRepository.delete(id)
     }
 }
