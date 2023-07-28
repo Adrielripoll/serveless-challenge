@@ -2,7 +2,7 @@ import Joi from 'joi'
 
 export const CreateEmployeeSchema = Joi.object({
     name: Joi.string().required(),
-    age: Joi.number().required(),
+    age: Joi.number().strict().required(),
     role: Joi.string().required()
 })
 
