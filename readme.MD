@@ -66,5 +66,6 @@ Employee {
 <ul>
     <li>No endpoint GET /employee, podemos incluir paginação e limite de itens por página.</li>
     <li>Não incluí testes e2e, somente testes unitários.</li>
+    <li>Os use cases costumam ficar em arquivos diferentes, mas preferi manter juntos por simplicidade.</li>
 </ul>
 
