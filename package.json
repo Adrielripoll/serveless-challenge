@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
     "test": "jest --setupFiles",
-    "deploy": "tsc",
+    "deploy": "npx tsc",
     "postdeploy": "serverless deploy"
   },
   "dependencies": {
